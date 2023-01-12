@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 30px;
+    top: 30px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+li:hover {
+    color: rgb(0, 255, 255);
+    font-weight: bold;
+}
+
+
+section {
+    height: 680px;
+    width: 680px;
+    margin: 0px;
+    background-color: white;
+}
+
+#sectionOne {
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+
+}
+
+article {
+    margin: 30px;
+    position: absolute;
+    top: 200px;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 95%;
+    position: absolute;
+    bottom: 100px;
+}
+
+footer p {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 30px;
+}
+
+.imageSection {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#image {
+    background-image: url(/images/beach.jpg);
+    background-size: cover;
+    background-position: center;
+}
